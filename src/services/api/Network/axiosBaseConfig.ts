@@ -1,6 +1,6 @@
 import axios, { AxiosInstance } from "axios";
 const backendApiAxios:AxiosInstance = axios.create({
-    baseURL:process.env.BACKEND_URL,
+    baseURL:process.env.APPSETTING_BACKEND_URL,
     timeout:5000
 });
 
