@@ -7,8 +7,6 @@ import DeveloperSection from './DeveloperSection/DeveloperSection';
 import FooterSection from './FooterSection/FooterSection';
 
 function LandingPage() {
-
-  console.log("the backend url is ",import.meta.env);
   return (
     <>
       <NavBar />
