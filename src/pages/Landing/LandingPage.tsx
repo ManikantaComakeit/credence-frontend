@@ -8,7 +8,7 @@ import FooterSection from './FooterSection/FooterSection';
 
 function LandingPage() {
 
-  console.log("the backend url is ",process.env);
+  console.log("the backend url is ",import.meta.env);
   return (
     <>
       <NavBar />
