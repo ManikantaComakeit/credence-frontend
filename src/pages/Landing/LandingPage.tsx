@@ -8,7 +8,7 @@ import FooterSection from './FooterSection/FooterSection';
 
 function LandingPage() {
 
-  console.log(import.meta.env)
+  console.log(process.env)
   return (
     <>
       <NavBar />
