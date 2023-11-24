@@ -20,6 +20,8 @@ jobs:
           submodules: true
           lfs: false
       - name: Build And Deploy
+        env:
+          VITE_BACKEND_URL: ${{env.VITE_BACKEND_URL}}
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
         with:
